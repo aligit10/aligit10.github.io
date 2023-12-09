@@ -54,20 +54,3 @@ body {
     padding: 20px;
     text-align: center;
 }
-
-#main-content {
-    text-align: center;
-}
-
-#main-content .pink-box {
-    background-color: #ffc1ca;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 15px; /* Adjusted margin-top */
-}
-
-#main-content .love-text {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-}

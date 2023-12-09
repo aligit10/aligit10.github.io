@@ -5,13 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Appreciation</title>
     <link rel="stylesheet" type="text/css" href="styles2.css">
+    <style>
+        #main-content .pink-box {
+            background-color: #ffc1ca;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15px; /* Adjusted margin-top */
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Added transition for smooth effect */
+            transform: perspective(1000px) rotateX(0deg); /* Added 3D effect */
+            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3); /* Increased box shadow size */
+        }
+
+        #main-content .pink-box:hover {
+            background-color: #ffa7c9; /* Dark hover effect */
+            transform: perspective(1000px) rotateX(3deg); /* Adjusted rotation on hover */
+            box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.4); /* Further increased shadow on hover */
+        }
+
+        #main-content .love-text {
+            font-size: 20px;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <div id="container">
         <div id="buttons">
             <a href="index.html" class="button">Main page</a>
-            <a href="1.html" class="button active">Love</a>
-            <a href="3.html" class="button">Happy birthday</a>
+            <a href="1.html" class="button active">Perfect qualities</a>
+            <a href="3.html" class="button">Everlasting love</a>
         </div>
         <div id="content">
             <div id="header">
